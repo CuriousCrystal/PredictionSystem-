@@ -105,23 +105,5 @@ Each model is evaluated with:
 - **Confusion matrix** visualization
 - **Feature importance** (tree-based models)
 
-## 📋 Key Improvements over Original
 
-- ✅ Fixed accuracy bug (was printing wrong variable)
-- ✅ Fixed shuffle not being applied
-- ✅ Fixed off-by-one in train/test split
-- ✅ All 16 features used (was only 4)
-- ✅ Proper `train_test_split` with stratification
-- ✅ `accuracy_score` instead of manual loops
-- ✅ Reproducible with `random_state=42`
-- ✅ 5-fold cross-validation
-- ✅ Hyperparameter tuning (GridSearchCV)
-- ✅ 3 new models (SVM, KNN, Gradient Boosting)
-- ✅ Feature importance plot
-- ✅ Model persistence with joblib
-- ✅ Modular code structure
-- ✅ Interactive single-student prediction using all features
 
-## 📜 License
-
-MIT
