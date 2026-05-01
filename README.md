@@ -28,28 +28,6 @@ The dataset (`data/AI-Data.csv`) contains **481 student records** with **16 feat
 
 ## 🚀 Quick Start
 
-```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Run full pipeline (EDA + training + evaluation)
-python main.py
-
-# 3. Skip EDA visualizations
-python main.py --skip-eda
-
-# 4. Include hyperparameter tuning (slower but better)
-python main.py --tune
-
-# 5. Full pipeline with tuning
-python main.py --tune --skip-eda
-
-# 6. Standalone prediction (uses saved best model)
-python predict.py
-# Or run with mock data to test
-python predict.py --mock
-```
-
 ## 🏗️ Project Structure
 
 ```
